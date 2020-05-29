@@ -2,7 +2,11 @@
   "name": "reactNativeFirstLaunch",
   "version": "0.0.1",
   "private": true,
+  "homepage": "https://github.com/horsekitlin/reactNativeFirstLaunch",
   "scripts": {
+    "postJSMajorVersion": "npm version major",
+    "postJSMinorVersion": "npm version minor",
+    "postJSPatchVersion": "npm version patch",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
